@@ -1,3 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/iconTarefas.png">
+    <title>Listar Tarefas</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section class="hero">
+            <section class="sectionInput">
+
+
+                <div class="alinhamentoBotoesTemas">
+                    <div class="botoesTemasDiv"><button class="buttonMain" id="theme-toggle-main"></button>
+                        <button class="buttonBlue" id="theme-toggle-blue"></button>
+                        <button class="buttonPink" id="theme-toggle-pink"></button>
+                        <button class="buttonGreen" id="theme-toggle-green"></button>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+                <h1>Listar<b>Tarefas</b></h1>
+                <p>Acompanhe seu fluxo de atividades.</p>
+                <form id="to-do-form">
+                    <input type="text" placeholder="Informe Sua tarefa..." id="task-title-input" class="
+                inputTarefa">
+                    <select id="select-input">
+
+                        <option value="Pessoal">Pessoal</option>
+
+                        <option value="Profissional">Profissional</option>
+
+                        <option value="Estudos">Estudos</option>
+
+                        <option value="Casa">Casa</option>
+
+                    </select>
+
+
+                    <button id="adicionar-task-button" class="buttonTarefa">Adicionar Tarefa</button>
+                </form>
+
+
+            </section>
+
+
+            <section class="sectionCategorias">
+
+
+                <h2>Categorias</h2>
+
+                <div class="align">
+
+                    <div class="align02">
+
+                        <div class="estudosCategoria">
+                            <h3>Estudos</h3>
+                            <ul id="lista-estudos"></ul>
+                        </div>
+
+                        <div class="profissionalCategoria">
+                            <h3>Profissional</h3>
+                            <ul id="lista-profissional"></ul>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="align02">
+
+                        <div class="pessoalCategoria">
+                            <h3>Pessoal</h3>
+                            <ul id="lista-pessoal"></ul>
+                        </div>
+                        <div class="casaCategoria">
+                            <h3>Casa</h3>
+                            <ul id="lista-casa"></ul>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </section>
+
+        </section>
+
+    </main>
+
 
 
 

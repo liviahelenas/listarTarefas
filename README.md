@@ -4,7 +4,7 @@ Bem-vindo ao repositório da aplicação **Listar Tarefas** 🚀
  
 Este projeto foi desenvolvido com o objetivo de praticar manipulação do DOM, organização de layout e lógica com JavaScript através de uma interface simples, moderna e funcional.
  
-🔗 **[Acesse o projeto ao vivo](https://liviahelenas.github.io/listarTarefas/main/index.html)**
+🔗 **[Acesse o projeto ao vivo](https://liviahelenas.github.io/listarTarefas/index.html)**
  
 
  

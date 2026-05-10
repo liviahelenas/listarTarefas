@@ -3,21 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-///estilos globais
 
 :root {
     --primary-color: #f6fdb8;
 }
-
-
-   
-///variaveis de ambiente
-
-.main-theme { --primary-color:  #f6fdb8; }
-.candy-blue { --primary-color: #a2e9e3; }
-.candy-pink { --primary-color: #fdbfe3; }
-.candy-green { --primary-color: #d1fdbf; }
-
 
 html,
 body {
@@ -32,6 +21,15 @@ body {
     transition: background-color 0.3s ease;
 
 }
+   
+
+
+.main-theme { --primary-color: #f6fdb8; }
+.candy-blue { --primary-color: #a2e9e3; }
+.candy-pink { --primary-color: #fdbfe3; }
+.candy-green { --primary-color: #d1fdbf; }
+
+
 
 .hero,
 .sectionInput,

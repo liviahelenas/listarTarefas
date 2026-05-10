@@ -12,6 +12,10 @@ body {
     background-color: var(--primary-color);
 
     font-family: "Host Grotesk", sans-serif;
+    color: rgb(43, 43, 43);
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
     color: rgb(31, 31, 31);
    
 

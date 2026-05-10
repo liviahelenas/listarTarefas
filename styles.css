@@ -23,18 +23,13 @@ body {
 }
    
 
-/* =======================
-   VARIÁVEIS
-======================= */
 
 .main-theme { --primary-color: #f6fdb8; }
 .candy-blue { --primary-color: #a2e9e3; }
 .candy-pink { --primary-color: #fdbfe3; }
 .candy-green { --primary-color: #d1fdbf; }
 
-/* =======================
-   SEÇÕES BASE
-======================= */
+
 
 .hero,
 .sectionInput,
@@ -46,7 +41,7 @@ body {
     display: flex;
 }
 
-/* HERO */
+
 .hero {
     flex-direction: column;
     gap: 3rem;
@@ -56,15 +51,13 @@ body {
 
     
 
-/* INPUT */
+
 .sectionInput {
     flex-direction: column;
     gap: 2rem;
 }
 
-/* =======================
-   TIPOGRAFIA
-======================= */
+
 
 .sectionInput h1 {
     color: rgb(43, 43, 43);
@@ -82,9 +75,7 @@ body {
     color: rgb(31, 31, 31);
 }
 
-/* =======================
-   FORM
-======================= */
+
 
 .sectionInput form {
     display: flex;
@@ -102,9 +93,7 @@ body {
     padding: 0 1rem;
 }
 
-/* =======================
-   CATEGORIAS
-======================= */
+
 
 .sectionCategorias {
     flex-direction: column;
@@ -123,7 +112,6 @@ body {
     font-weight: 400;
 }
 
-/* GRID (corrige TODOS os bugs de alinhamento) */
 .align,
 .align02 {
     display: grid;
@@ -132,9 +120,7 @@ body {
     width: 100%;
 }
 
-/* =======================
-   LISTAS
-======================= */
+
 
 .sectionCards li,
 .sectionCategorias li {
@@ -151,28 +137,25 @@ body {
     color: rgb(31, 31, 31);
 }
 
-/* checkbox */
 input[type="checkbox"] {
     width: 20px;
     height: 20px;
     accent-color: rgb(43, 43, 43);
 }
 
-/* =======================
-   BOTÕES
-======================= */
+
 
 .buttonTarefa,
 .sectionCards button,
 .sectionCategorias button {
-    min-height: 40px;
-    max-width:80px;
-    min-width: 100%;
+    min-height: 20px;
+    max-width:200px;
+    min-width: 80px;
     border-radius: 2rem;
     border: 1px solid black;
     background: transparent;
     cursor: pointer;
-    padding: 4%;
+    padding: 0.5rem;
 
     display: flex;
     align-items: center;
@@ -190,9 +173,7 @@ button:hover {
       background-color: var(--primary-color); 
 }
 
-/* =======================
-   SELECT
-======================= */
+
 
 select {
     height: 35px;
@@ -203,9 +184,7 @@ select {
     color: rgb(31, 31, 31);
 }
 
-/* =======================
-   TEMAS
-======================= */
+
 
 .botoesTemasDiv {
     display: flex;
@@ -229,9 +208,6 @@ select {
 .buttonBlue { background: #a2e9e3; }
 .buttonMain { background: #f6fdb8; }
 
-/* =======================
-   CARDS
-======================= */
 
 .pessoalCategoria,
 .estudosCategoria,
@@ -250,7 +226,6 @@ select {
     box-sizing: border-box;
 }
 
-/* lista interna */
 .pessoalCategoria ul {
     display: flex;
     flex-direction: column;

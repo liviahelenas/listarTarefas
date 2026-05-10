@@ -47,10 +47,10 @@ body {
     gap: 3rem;
     align-items: flex-end;
 }
-h1, h2 {
+h1, h2, h3 {
     color: rgb(43, 43, 43);
     font-family: "Host Grotesk", sans-serif;
-    font-size: 2rem;
+    font-size: 1.95rem;
     font-weight: 100;
     color: rgb(31, 31, 31);
 }
@@ -63,13 +63,7 @@ h1, h2 {
         
     }
     
-    h3 {
-    color: rgb(43, 43, 43);
-    font-family: "Host Grotesk", sans-serif;
-    font-size: 2rem;
-    font-weight: 100;
-        color: rgb(31, 31, 31);
-}
+
 /* INPUT */
 .sectionInput {
     flex-direction: column;

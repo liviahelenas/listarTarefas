@@ -8,7 +8,8 @@ html,
 main,
 body {
     width: 100%;
-    overflow-x: hidden;
+        overflow-x: hidden;
+
     background-color: var(--primary-color);
 
 
@@ -57,7 +58,12 @@ body {
     padding: 4%;
     align-items: flex-end;
 }
-
+.hero,
+.sectionInput,
+.sectionCategorias {
+    min-height: 100vh;
+    height: auto;
+}
 
 
 .sectionInput h1 {
@@ -87,18 +93,7 @@ body {
 
 }
 
-.sectionInput {
-    width: 100%;
-    max-width: 500px;
-    height: 100vh;
-    display: flex;
 
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
-    margin: 2rem;
-    padding: 2rem;
-}
 
 .sectionCards h2 {
     color: rgb(43, 43, 43);
@@ -140,6 +135,12 @@ input[type="checkbox"] {
     border: 1px solid black;
     padding: 2%;
 
+}
+.sectionInput {
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+    padding: 2rem;
 }
 
 .buttonTarefa,
@@ -295,7 +296,6 @@ button {
     align-items: center;
     justify-content: center ;
     flex-wrap: wrap;
-    margin: 2rem;
     padding: 2%;
     
 
@@ -310,7 +310,6 @@ button {
     justify-content: center ;
     flex-wrap: wrap;
     padding: 2%;
-    margin:4rem;
 
 }
 

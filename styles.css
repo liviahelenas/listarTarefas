@@ -53,12 +53,14 @@ h1, h2 {
     font-family: "Host Grotesk", sans-serif;
     font-size: 2rem;
     font-weight: 100;
+    color: rgb(31, 31, 31);
 }
     h3 {
     color: rgb(43, 43, 43);
     font-family: "Host Grotesk", sans-serif;
     font-size: 1rem;
     font-weight: 100;
+        color: rgb(31, 31, 31);
 }
 /* INPUT */
 .sectionInput {
@@ -83,6 +85,7 @@ h1, h2 {
     font-family: "Host Grotesk", sans-serif;
     font-size: 2rem;
     font-weight: 100;
+    color: rgb(31, 31, 31);
 }
 
 /* =======================
@@ -143,6 +146,7 @@ h1, h2 {
     padding: 0.4rem;
     font-family: "Funnel Sans", sans-serif;
     font-size: 1.3rem;
+    color: rgb(31, 31, 31);
 }
 
 /* checkbox */

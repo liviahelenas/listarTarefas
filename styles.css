@@ -49,7 +49,10 @@ body {
     align-items: flex-end;
 }
 h1, h2, h3 {
+    color: rgb(43, 43, 43);
     font-family: "Host Grotesk", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
 }
 /* INPUT */
 .sectionInput {

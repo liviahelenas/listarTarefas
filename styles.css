@@ -4,25 +4,25 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #f6fdb8;
+}
+
 html,
 body {
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
-    background-color: var(--primary-color);
 
 
     font-family: "Host Grotesk", sans-serif;
     color: rgb(31, 31, 31);
+}
    
 
 /* =======================
    VARIÁVEIS
 ======================= */
-
-:root {
-    --primary-color: #f6fdb8;
-}
 
 .main-theme { --primary-color: #f6fdb8; }
 .candy-blue { --primary-color: #a2e9e3; }

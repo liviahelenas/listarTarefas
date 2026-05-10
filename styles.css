@@ -165,8 +165,9 @@ input[type="checkbox"] {
 .buttonTarefa,
 .sectionCards button,
 .sectionCategorias button {
-    min-height: 35px;
-    min-width: 100px;
+    min-height: 20px;
+    max-width:80px;
+    min-width: 100%;
     border-radius: 2rem;
     border: 1px solid black;
     background: transparent;

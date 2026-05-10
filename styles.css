@@ -10,7 +10,8 @@ body {
     min-height: 100%;
     overflow-x: hidden;
     background-color: var(--primary-color);
-}
+    font-family: "Funnel Sans", sans-serif;
+    color: rgb(43, 43, 43);
 
 /* =======================
    VARIÁVEIS

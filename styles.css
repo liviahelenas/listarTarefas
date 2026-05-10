@@ -10,7 +10,6 @@ body {
     width: 100%;
     overflow-x: hidden;
     background-color: var(--primary-color);
-    padding: 2%;
 
 
 }
@@ -311,7 +310,7 @@ button {
     justify-content: center ;
     flex-wrap: wrap;
     padding: 2%;
-    margin:4%;
+    margin:4rem;
 
 }
 

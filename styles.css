@@ -46,7 +46,7 @@ body {
 
 .hero {
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     align-items: flex-end;
  
 }

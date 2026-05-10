@@ -10,13 +10,14 @@
 
 html,
 body {
-    width: 100%;
+      width: 100%;
     min-height: 100%;
     overflow-x: hidden;
 
-
     font-family: "Host Grotesk", sans-serif;
     color: rgb(31, 31, 31);
+
+    background-color: var(--primary-color);
 }
    
 

@@ -46,7 +46,9 @@ body {
     gap: 3rem;
     align-items: flex-end;
 }
-
+h1, h2, h3 {
+    font-family: "Host Grotesk", sans-serif;
+}
 /* INPUT */
 .sectionInput {
     flex-direction: column;

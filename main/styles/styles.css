@@ -283,6 +283,8 @@ button {
     flex-direction: column;
     gap: 1rem;
     background-color: var(--primary-color);
+    padding: 4%;
+
 }
 
 .align {

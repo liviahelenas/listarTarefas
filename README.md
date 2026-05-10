@@ -4,7 +4,7 @@ Bem-vindo ao repositório da aplicação **Listar Tarefas** 🚀
  
 Este projeto foi desenvolvido com o objetivo de praticar manipulação do DOM, organização de layout e lógica com JavaScript através de uma interface simples, moderna e funcional.
  
-🔗 **[Acesse o projeto ao vivo](https://liviahelenas.github.io/listaDeAtividades/main/index.html)**
+🔗 **[Acesse o projeto ao vivo](https://liviahelenas.github.io/listarTarefas/main/index.html)**
  
 
  
@@ -21,6 +21,9 @@ A aplicação foi criada para:
  
 ✅ **Adicionar tarefas**
 O usuário pode inserir novas tarefas através do campo de texto.
+
+✅ **Interface intuitiva**
+O projeto possui um visual minimalista e agradável para melhorar a experiência do usuário.
  
 ✅ **Organização de tarefas**
 As tarefas são divididas em categorias:
@@ -28,8 +31,7 @@ As tarefas são divididas em categorias:
 - 📂 Profissional
 - 📂 Estudos
 - 📂 Casa
-✅ **Interface intuitiva**
-O projeto possui um visual minimalista e agradável para melhorar a experiência do usuário.
+
  
 
  

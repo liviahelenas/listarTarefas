@@ -9,6 +9,8 @@ body {
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
+    background-color: var(--primary-color);
+
 
     font-family: "Host Grotesk", sans-serif;
     color: rgb(31, 31, 31);

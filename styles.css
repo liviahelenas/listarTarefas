@@ -47,21 +47,8 @@ body {
     gap: 3rem;
     align-items: flex-end;
 }
-h1, h2, h3 {
-    color: rgb(43, 43, 43);
-    font-family: "Host Grotesk", sans-serif;
-    font-size: 1.95rem;
-    font-weight: 100;
-    color: rgb(31, 31, 31);
-}
 
-    li {
-    font-family: "Host Grotesk", sans-serif;
-    font-size: 0.95rem;
-    font-weight: 100;
-    color: rgb(31, 31, 31);
-        
-    }
+
     
 
 /* INPUT */
@@ -120,7 +107,12 @@ h1, h2, h3 {
     padding: 4rem 2rem;
 }
 
-.sectionCategorias h2, .sectionCategorias h3 {
+ .sectionCategorias h2 {
+    font-family: "Funnel Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+     .sectionCategorias h3 {
     font-family: "Funnel Sans", sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
@@ -187,6 +179,7 @@ input[type="checkbox"] {
 button:hover {
     transform: translateY(-3px);
     filter: brightness(0.95);
+      background-color: var(--primary-color); 
 }
 
 /* =======================

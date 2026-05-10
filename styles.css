@@ -15,7 +15,9 @@ body {
     overflow-x: hidden;
 
     font-family: "Host Grotesk", sans-serif;
-    color: rgb(31, 31, 31);
+        transition: background-color 0.3s ease;
+
+
 
 
 
@@ -38,7 +40,6 @@ body {
     background-color: var(--primary-color);
     padding: 4%;
     display: flex;
-        transition: background-color 0.3s ease;
 
 }
 
@@ -47,6 +48,7 @@ body {
     flex-direction: column;
     gap: 3rem;
     align-items: flex-end;
+ 
 }
 
 

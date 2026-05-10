@@ -283,7 +283,7 @@ button {
     flex-direction: column;
     gap: 3rem;
     background-color: var(--primary-color);
-    padding: 4%;
+    padding: 4rem;
 }
 
 .align {
@@ -295,6 +295,7 @@ button {
     justify-content: center ;
     flex-wrap: wrap;
     padding: 2rem;
+    margin:2rem;
 
 }
 

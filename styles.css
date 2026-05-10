@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+///estilos globais
 
 :root {
     --primary-color: #f6fdb8;
@@ -22,7 +23,7 @@ body {
 
 }
    
-
+///variaveis de ambiente
 
 .main-theme { --primary-color: #f6fdb8; }
 .candy-blue { --primary-color: #a2e9e3; }

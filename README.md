@@ -41,11 +41,8 @@ As tarefas são divididas em categorias:
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
  
-> O projeto pode ser adaptado para diferentes dispositivos utilizando **media queries**.
->
 > ## 👩‍💻 Autora
-
-Feito com 💙 por **Livia Helena**
+>  Feito com 💙 por **Livia Helena**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/liviarochas/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviahelenas)

@@ -12,7 +12,9 @@ body {
     background-color: var(--primary-color);
 }
 
-
+/* =======================
+   VARIÁVEIS
+======================= */
 
 :root {
     --primary-color: #f6fdb8;
@@ -23,32 +25,36 @@ body {
 .candy-pink { --primary-color: #fdbfe3; }
 .candy-green { --primary-color: #d1fdbf; }
 
-
+/* =======================
+   SEÇÕES BASE
+======================= */
 
 .hero,
 .sectionInput,
 .sectionCategorias {
     min-height: 100vh;
-    height: auto;
     width: 100%;
     background-color: var(--primary-color);
     padding: 4%;
     display: flex;
 }
 
+/* HERO */
 .hero {
     flex-direction: column;
     gap: 3rem;
     align-items: flex-end;
 }
 
-
+/* INPUT */
 .sectionInput {
     flex-direction: column;
     gap: 2rem;
 }
 
-
+/* =======================
+   TIPOGRAFIA
+======================= */
 
 .sectionInput h1 {
     color: rgb(43, 43, 43);
@@ -65,7 +71,9 @@ body {
     font-weight: 100;
 }
 
-
+/* =======================
+   FORM
+======================= */
 
 .sectionInput form {
     display: flex;
@@ -83,14 +91,14 @@ body {
     padding: 0 1rem;
 }
 
-
+/* =======================
+   CATEGORIAS
+======================= */
 
 .sectionCategorias {
-    display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 5%;
-    width: 100%;
+    padding: 4rem 2rem;
 }
 
 .sectionCategorias h2 {
@@ -98,6 +106,19 @@ body {
     font-size: 1.8rem;
     font-weight: 400;
 }
+
+/* GRID (corrige TODOS os bugs de alinhamento) */
+.align,
+.align02 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+/* =======================
+   LISTAS
+======================= */
 
 .sectionCards li,
 .sectionCategorias li {
@@ -117,7 +138,9 @@ input[type="checkbox"] {
     accent-color: rgb(43, 43, 43);
 }
 
-
+/* =======================
+   BOTÕES
+======================= */
 
 .buttonTarefa,
 .sectionCards button,
@@ -144,7 +167,9 @@ button:hover {
     filter: brightness(0.95);
 }
 
-
+/* =======================
+   SELECT
+======================= */
 
 select {
     height: 35px;
@@ -154,7 +179,9 @@ select {
     font-family: "Funnel Sans", sans-serif;
 }
 
-
+/* =======================
+   TEMAS
+======================= */
 
 .botoesTemasDiv {
     display: flex;
@@ -178,20 +205,9 @@ select {
 .buttonBlue { background: #a2e9e3; }
 .buttonMain { background: #f6fdb8; }
 
-
-
-.sectionCategorias {
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.align,
-.align02 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-}
+/* =======================
+   CARDS
+======================= */
 
 .pessoalCategoria,
 .estudosCategoria,
@@ -199,17 +215,18 @@ select {
 .profissionalCategoria {
     width: 100%;
     max-width: 500px;
+
     background-color: beige;
     border: 1px solid black;
     border-radius: 1.95rem;
 
     padding: 2rem;
-    margin: 1rem;
 
     min-height: 320px;
     box-sizing: border-box;
 }
 
+/* lista interna */
 .pessoalCategoria ul {
     display: flex;
     flex-direction: column;

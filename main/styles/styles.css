@@ -290,6 +290,7 @@ button {
 .align {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .sectionCategorias h2 {

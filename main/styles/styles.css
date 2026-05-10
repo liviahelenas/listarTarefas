@@ -81,7 +81,7 @@ body {
 .sectionInput form {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
     width: 100%;
     flex-wrap: wrap;
 

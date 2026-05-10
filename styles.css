@@ -17,8 +17,7 @@ body {
     font-family: "Host Grotesk", sans-serif;
     color: rgb(31, 31, 31);
 
-    background-color: var(--primary-color);
-    transition: background-color 0.3s ease;
+
 
 }
    
@@ -39,6 +38,8 @@ body {
     background-color: var(--primary-color);
     padding: 4%;
     display: flex;
+        transition: background-color 0.3s ease;
+
 }
 
 
